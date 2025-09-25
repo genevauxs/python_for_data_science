@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdbb8d9d-f762-455b-bf34-aee97dead294" name="Changes" comment="Setup repo">
+    <list default="true" id="bdbb8d9d-f762-455b-bf34-aee97dead294" name="Changes" comment="First lesson">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myfirstfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstfile.py" afterDir="false" />
     </list>
@@ -23,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "genevauxs"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;genevauxs&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/genevauxs/python_for_data_science.git",
-    "accountId": "7a6bc2c9-1de3-4a71-b3c8-ba66af2926c8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/genevauxs/python_for_data_science.git&quot;,
+    &quot;accountId&quot;: &quot;7a6bc2c9-1de3-4a71-b3c8-ba66af2926c8&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="32rZ7yrDoGoRhhUK51hQdIuryXm" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,9 +49,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Exercise_Conditions_01.executor": "Run",
+    "Python.Exercise_Conditions_02.executor": "Run",
     "Python.myfirstfile.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -76,7 +79,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758180489390</updated>
-      <workItem from="1758180490540" duration="3460000" />
+      <workItem from="1758180490540" duration="3674000" />
+      <workItem from="1758787067000" duration="4484000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo">
       <option name="closed" value="true" />
@@ -86,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758182920846</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First lesson">
+      <option name="closed" value="true" />
+      <created>1758185051773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758185051773</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,9 +117,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup repo" />
+    <MESSAGE value="First lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="First lesson" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_for_data_science$myfirstfile.coverage" NAME="myfirstfile Coverage Results" MODIFIED="1758184406613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$Exercise_Conditions_01.coverage" NAME="Exercise_Conditions_01 Coverage Results" MODIFIED="1758790301541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$myfirstfile.coverage" NAME="myfirstfile Coverage Results" MODIFIED="1758789056639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$Exercise_Conditions_02.coverage" NAME="Exercise_Conditions_02 Coverage Results" MODIFIED="1758791744026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
   </component>
 </project>
