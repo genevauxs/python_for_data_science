@@ -156,8 +156,6 @@ for i in range(total_height):
             print(" ", end="")
         for j in range(2*i +1):
             print("*", end="")
-        for j in range(width - i):
-            print(" ", end="")
         continue
     else:
         if total_height > 5:
@@ -168,6 +166,5 @@ for i in range(total_height):
             print(" ", end="")
         for j in range(2 * trunk_width + 1):
             print("*", end="")
-        for j in range(width - trunk_width):
-            print(" ", end="")
+
 
