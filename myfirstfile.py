@@ -9,3 +9,7 @@ match point:
         print(f"On the Y-Axis at Y = {y}")
     case _:
         print("Somewhere on plane")
+
+a = list(range(10))
+print(a[-9::])
+print(a[-9::-1])
