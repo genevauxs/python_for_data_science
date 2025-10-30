@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdbb8d9d-f762-455b-bf34-aee97dead294" name="Changes" comment="Week 4 Exercises and clean sheet">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/Exercise_Kwargs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/Exercises_Loops_and_Conditions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/Exercises_Loops_and_Conditions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstfile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +51,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Category Sorting.executor": "Run",
+    "Python.Eulers Number.executor": "Run",
     "Python.Exercise_Conditions_01.executor": "Run",
     "Python.Exercise_Conditions_02.executor": "Run",
+    "Python.Exercise_Kwargs.executor": "Run",
     "Python.Exercises_Loops_and_Conditions.executor": "Run",
+    "Python.Quick Slicing.executor": "Run",
+    "Python.Recursive Function.executor": "Run",
+    "Python.String Cut.executor": "Run",
+    "Python.Toast Count.executor": "Run",
     "Python.myfirstfile.executor": "Run",
+    "Python.testing.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/genev/repos/python_for_data_science",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,6 +76,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\genev\repos\python_for_data_science" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,7 +98,10 @@
       <updated>1758180489390</updated>
       <workItem from="1758180490540" duration="3674000" />
       <workItem from="1758787067000" duration="4754000" />
-      <workItem from="1759991054397" duration="6126000" />
+      <workItem from="1759991054397" duration="6232000" />
+      <workItem from="1760077466011" duration="2038000" />
+      <workItem from="1760080231028" duration="82000" />
+      <workItem from="1761808278808" duration="9226000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo">
       <option name="closed" value="true" />
@@ -125,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759996916282</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Week 4 Exercises and clean sheet">
+      <option name="closed" value="true" />
+      <created>1759997546714</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759997546714</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,13 +179,22 @@
     <MESSAGE value="First lesson" />
     <MESSAGE value="Week 2 Exercises" />
     <MESSAGE value="Week 4 Exercises" />
-    <MESSAGE value="Week 4 Exercises and clean sheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 4 Exercises and clean sheet" />
+    <MESSAGE value="Week 4 Exercises with solution" />
+    <MESSAGE value="Week 4 Exercises with solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 4 Exercises with solution" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_for_data_science$Exercise_Conditions_01.coverage" NAME="Exercise_Conditions_01 Coverage Results" MODIFIED="1758790301541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
-    <SUITE FILE_PATH="coverage/python_for_data_science$Exercises_Loops_and_Conditions.coverage" NAME="Exercises_Loops_and_Conditions Coverage Results" MODIFIED="1759996995348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
-    <SUITE FILE_PATH="coverage/python_for_data_science$myfirstfile.coverage" NAME="myfirstfile Coverage Results" MODIFIED="1758789056639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$testing.coverage" NAME="testing Coverage Results" MODIFIED="1761811873516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$myfirstfile.coverage" NAME="myfirstfile Coverage Results" MODIFIED="1761810010306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$Eulers_Number.coverage" NAME="Eulers Number Coverage Results" MODIFIED="1760078760020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Extra Exercises" />
     <SUITE FILE_PATH="coverage/python_for_data_science$Exercise_Conditions_02.coverage" NAME="Exercise_Conditions_02 Coverage Results" MODIFIED="1758791899993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$Exercise_Kwargs.coverage" NAME="Exercise_Kwargs Coverage Results" MODIFIED="1761809634772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$Exercise_Conditions_01.coverage" NAME="Exercise_Conditions_01 Coverage Results" MODIFIED="1758790301541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$Recursive_Function.coverage" NAME="Recursive Function Coverage Results" MODIFIED="1761816977485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Extra Exercises" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$Quick_Slicing.coverage" NAME="Quick Slicing Coverage Results" MODIFIED="1761815143315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Extra Exercises" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$Category_Sorting.coverage" NAME="Category Sorting Coverage Results" MODIFIED="1761818918632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Extra Exercises" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$Exercises_Loops_and_Conditions.coverage" NAME="Exercises_Loops_and_Conditions Coverage Results" MODIFIED="1759996995348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$Toast_Count.coverage" NAME="Toast Count Coverage Results" MODIFIED="1760079482973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Extra Exercises" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$String_Cut.coverage" NAME="String Cut Coverage Results" MODIFIED="1761814686301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Extra Exercises" />
   </component>
 </project>
