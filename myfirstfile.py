@@ -1,15 +1,18 @@
-point = (0,0)
+class Car:
 
-match point:
-    case (0, 0):
-        print("Origin")
-    case (x, 0):
-        print(f"On the X-Axis at X = {x}")
-    case (0, y):
-        print(f"On the Y-Axis at Y = {y}")
-    case _:
-        print("Somewhere on plane")
+    car_nr = 0
 
-a = list(range(10))
-print(a[-9::])
-print(a[-9::-1])
+    def __init__(self, brand, color):
+        print("Hello, I'm a car")
+        self.brand = brand
+        self.color = color
+        Car.car_nr += 1
+
+
+print(Car.car_nr)
+my_car = Car("Ferrari", "red")
+not_my_car = Car("Lambo", "white")
+print(my_car)
+
+
+print(my_car.brand, my_car.color)
