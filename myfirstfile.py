@@ -1,18 +1,17 @@
-class Car:
+import sys
+import os
+import numpy as np
 
-    car_nr = 0
+numbers = [0.029548892930490567, 0.5511592554631579,
+           0.2773069769785136, 0.7275575687582001,
+            0.867401726407296, 0.9543276773207937,
+            0.36067950811038096, 0.018031120836858983,
+            0.04502129553627654, 0.47025653079756413,
+            0.45584147839856937, 0.6286176913123153,
+            0.5382626903685851, 0.5249092472180474,
+            0.44960934817355613]
 
-    def __init__(self, brand, color):
-        print("Hello, I'm a car")
-        self.brand = brand
-        self.color = color
-        Car.car_nr += 1
-
-
-print(Car.car_nr)
-my_car = Car("Ferrari", "red")
-not_my_car = Car("Lambo", "white")
-print(my_car)
-
-
-print(my_car.brand, my_car.color)
+print(np.quantile(numbers, 0.5))
+print(np.quantile(numbers, 0.95))
+print(np.percentile(numbers, 50))
+print(np.percentile(numbers, 95))

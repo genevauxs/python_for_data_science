@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdbb8d9d-f762-455b-bf34-aee97dead294" name="Changes" comment="Week 8 OOP part 1">
+    <list default="true" id="bdbb8d9d-f762-455b-bf34-aee97dead294" name="Changes" comment="Week 9 OOP part 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstfile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Category Sorting.executor": "Run",
+    "Python.DataSeries.executor": "Run",
     "Python.Eulers Number.executor": "Run",
     "Python.Exercise OOP_1.executor": "Run",
     "Python.Exercise_Conditions_01.executor": "Run",
@@ -57,11 +59,13 @@
     "Python.Exercise_OOP_1.executor": "Run",
     "Python.Exercise_OOP_2.executor": "Run",
     "Python.Exercises_Loops_and_Conditions.executor": "Run",
+    "Python.Inheritance.executor": "Run",
     "Python.Quick Slicing.executor": "Run",
     "Python.Recursive Function.executor": "Run",
     "Python.String Cut.executor": "Run",
     "Python.Toast Count.executor": "Run",
     "Python.myfirstfile.executor": "Run",
+    "Python.run_script.executor": "Run",
     "Python.testing.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -103,7 +107,8 @@
       <workItem from="1760080231028" duration="82000" />
       <workItem from="1761808278808" duration="9323000" />
       <workItem from="1762413493511" duration="7336000" />
-      <workItem from="1763021423717" duration="1279000" />
+      <workItem from="1763021423717" duration="2325000" />
+      <workItem from="1763623284326" duration="8530000" />
     </task>
     <task id="LOCAL-00001" summary="Setup repo">
       <option name="closed" value="true" />
@@ -177,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762499031622</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Week 9 OOP part 2">
+      <option name="closed" value="true" />
+      <created>1763022818470</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1763022818470</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,21 +222,25 @@
     <MESSAGE value="Week 4 Exercises with solution" />
     <MESSAGE value="Week 6" />
     <MESSAGE value="Week 8 OOP part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 8 OOP part 1" />
+    <MESSAGE value="Week 9 OOP part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 9 OOP part 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_for_data_science$testing.coverage" NAME="testing Coverage Results" MODIFIED="1761811873516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_for_data_science$myfirstfile.coverage" NAME="myfirstfile Coverage Results" MODIFIED="1762420396927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$DataSeries.coverage" NAME="DataSeries Coverage Results" MODIFIED="1763633337187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Extra Exercises" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$myfirstfile.coverage" NAME="myfirstfile Coverage Results" MODIFIED="1763631039616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_for_data_science$Eulers_Number.coverage" NAME="Eulers Number Coverage Results" MODIFIED="1760078760020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Extra Exercises" />
     <SUITE FILE_PATH="coverage/python_for_data_science$Exercise_Conditions_02.coverage" NAME="Exercise_Conditions_02 Coverage Results" MODIFIED="1758791899993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
     <SUITE FILE_PATH="coverage/python_for_data_science$Exercise_Kwargs.coverage" NAME="Exercise_Kwargs Coverage Results" MODIFIED="1761809634772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
     <SUITE FILE_PATH="coverage/python_for_data_science$Exercise_Conditions_01.coverage" NAME="Exercise_Conditions_01 Coverage Results" MODIFIED="1758790301541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
     <SUITE FILE_PATH="coverage/python_for_data_science$Recursive_Function.coverage" NAME="Recursive Function Coverage Results" MODIFIED="1761816977485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Extra Exercises" />
     <SUITE FILE_PATH="coverage/python_for_data_science$Quick_Slicing.coverage" NAME="Quick Slicing Coverage Results" MODIFIED="1761815143315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Extra Exercises" />
-    <SUITE FILE_PATH="coverage/python_for_data_science$Exercise_OOP_2.coverage" NAME="Exercise_OOP_2 Coverage Results" MODIFIED="1763022682966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$Exercise_OOP_2.coverage" NAME="Exercise_OOP_2 Coverage Results" MODIFIED="1763022775875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$Inheritance.coverage" NAME="Inheritance Coverage Results" MODIFIED="1763028930321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Extra Exercises" />
     <SUITE FILE_PATH="coverage/python_for_data_science$Category_Sorting.coverage" NAME="Category Sorting Coverage Results" MODIFIED="1762413609967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Extra Exercises" />
     <SUITE FILE_PATH="coverage/python_for_data_science$Exercises_Loops_and_Conditions.coverage" NAME="Exercises_Loops_and_Conditions Coverage Results" MODIFIED="1759996995348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
     <SUITE FILE_PATH="coverage/python_for_data_science$Toast_Count.coverage" NAME="Toast Count Coverage Results" MODIFIED="1760079482973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Extra Exercises" />
+    <SUITE FILE_PATH="coverage/python_for_data_science$run_script.coverage" NAME="run_script Coverage Results" MODIFIED="1763631278554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
     <SUITE FILE_PATH="coverage/python_for_data_science$String_Cut.coverage" NAME="String Cut Coverage Results" MODIFIED="1761814686301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Extra Exercises" />
     <SUITE FILE_PATH="coverage/python_for_data_science$Exercise_OOP_1.coverage" NAME="Exercise_OOP_1 Coverage Results" MODIFIED="1763021440044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
   </component>
